@@ -1,0 +1,53 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+#levels {
+  list-style: none;
+  display: none;
+}
+
+#levels.unhide {
+  display: block;
+}
+
+#levels a {
+  color: white;
+  text-decoration: none;
+}
+
+#levels:hover {
+  cursor: pointer;
+}
+
+#levels li {
+  border-top: 1px solid white;
+  transition: 0.5s;
+}
+
+#levels li:hover {
+  background-color: #094f096c;
+}
+
+#news-head {
+  border: solid 1px #198754;
+}
+
+#news-list li {
+  border-bottom: solid 1px gray;
+  margin-top: 4px;
+}
+
+#news-list li:hover {
+  color: gray;
+  list-style-type: none;
+}
+
+#hideme {
+  opacity: 0;
+}
+
+/* #buttons button {
+  border: solid 1px white;
+  border-radius: 4px;
+} */
